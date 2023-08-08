@@ -61,74 +61,69 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="px-3 py-8">
         <div></div>
         <div>
-          <h2>
+          <h2 className="text-5xl">
             Porque usar polén natural
           </h2>
-          <div>
-            <div>
-              <img src="" alt="" />
+          <div className="py-8 flex flex-col gap-y-4">
+            <div className="flex gap-x-2 items-start">
+              <img src="/check.svg" alt="check" className="w-3 h-3 mt-1" />
               <p>Maior densidade de cor (usa menos tinta na impressão)</p>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="flex gap-x-2 items-start">
+              <img src="/check.svg" alt="check" className="w-3 h-3 mt-1" />
               <p>Melhoramos nosso  processo e reduzimos em 19% o efeito estufa</p>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="flex gap-x-2 items-start">
+              <img src="/check.svg" alt="check" className="w-3 h-3 mt-1" />
               <p>Utilizamos tecnologias que dispensam o OBA. Reduzindo a quantidade química no produto final</p>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="flex gap-x-2 items-start">
+              <img src="/check.svg" alt="check" className="w-3 h-3 mt-1" />
               <p>Disponível em Bobinas e Resmas</p>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="flex gap-x-2 items-start">
+              <img src="/check.svg" alt="check" className="w-3 h-3 mt-1" />
               <p>Gramatura 70g e 80g</p>
             </div>
           </div>
-          <button>
-            Quero user papel polen
-          </button>
         </div>
+        <button type="submit" className='bg-[#F7941D] p-2 rounded-xl w-full text-[#FFF7E0] px-8 mt-8
+            hover:bg-[#231f20] hover:text-[#F7941D] transition ease-out'>
+          Quero usar papel pólen
+        </button>
       </section>
-      <section>
+      <section className="bg-[url('/background.svg')] grid grid-cols-1 px-3 py-8">
         <div>
-          <h2>
+          <h2 className="text-5xl">
             Mais próximo da natureza
           </h2>
         </div>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <p>
+        <div className="grid grid-cols-1 gap-y-4 py-8">
+          <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain text-[#FFF7E0] p-8 min-h-[400px]">
+            <img src="/pine_tree.svg" alt="Pine" className="w-[24px] h-[24px]" />
+            <p className="mt-8 text-lg">
               Visando fornecer soluções sustentáveis, a nossa empresa se dedica ao plantio e cultivo de árvores, as
               quais são transformadas em bioprodutos inovadores e renováveis que atualmente impactam positivamente a vida
               de mais de 2 bilhões de pessoas.
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>
+          <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain text-[#FFF7E0] p-8 min-h-[400px]">
+            <img src="/nature_tree.svg" alt="Pine" className="w-[24px] h-[24px]" />
+            <p className="mt-8 text-lg">
               Por meio do desenvolvimento de uma ampla gama de materiais, utilizando árvores cultivadas por nós, nos
               comprometemos a tornar os produtos disponíveis nas lojas e prateleiras ao redor do mundo mais sustentáveis.
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>
+          <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain text-[#FFF7E0] p-8 min-h-[400px]">
+            <img src="/two_pine_trees.svg" alt="Pine" className="w-[24px] h-[24px]" />
+            <p className="mt-8 text-lg">
               A empresa tem a sustentabilidade como um pilar essencial em sua trajetória e busca conscientizar e
               inspirar cada vez mais pessoas a adotarem práticas sustentáveis.
             </p>
           </div>
-        </div>
-      </section>
-      <section>
-
-        <div>
-          <img src="" alt="" />
         </div>
       </section>
       <section className='py-8 px-3 grid gap-y-8'>
@@ -141,8 +136,8 @@ export default function Home() {
           </p>
           <button type="submit" className='bg-[#F7941D] p-2 rounded-xl min-w-[200px] text-[#FFF7E0] px-8 mt-8
             hover:bg-[#231f20] hover:text-[#F7941D] transition ease-out'>
-              Quero usar papel pólen
-            </button>
+            Quero usar papel pólen
+          </button>
         </div>
         <div className="flex w-full justify-center">
           <img src="/edicao_carbono_zero.svg" alt="Logo Polen Natural" className="w-3/5" />
