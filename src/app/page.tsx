@@ -23,7 +23,8 @@ export default function Home() {
         </div>
       </section>
       <section id='step-start' className='min-h-screen bg-[#231f20]'>
-        <div className='min-h-screen bg-[#fff7e0] lg:rounded-br-[32rem] grid items-center md:grid lg:grid-cols-2 lg:px-24 xl:px-32'>
+        <div className='min-h-screen bg-[#fff7e0] lg:rounded-br-[32rem] grid items-center md:grid lg:grid-cols-2 lg:px-24 xl:px-32
+        px-3 md:px-0'>
           <div className='md:px-24 lg:pr-16 2xl:pl-32 2xl:text-2xl'>
             <p className='md:pt-0'>
               Livros atravessam gerações marcando épocas e transmitindo
@@ -99,7 +100,7 @@ export default function Home() {
               diminuição de 24% no consumo de recursos fósseis.
             </p>
           </div>
-          <div className="flex w-full justify-center">
+          <div className="flex w-full justify-center mt-8">
             <img src="/edicao_carbono_zero.svg" alt="Logo Polen Natural" className="w-3/5" />
           </div>
         </div>
@@ -178,10 +179,10 @@ export default function Home() {
           <div>
             <div className='flex gap-x-2 justify-center items-center'>
               <div>
-                <img src="/facebook.png" alt="Ícone" className='lg:w-8 lg:h-8' />
+                <img src="/facebook.png" alt="Ícone" className='w-4 h-4 lg:w-8 lg:h-8' />
               </div>
               <div>
-                <img src="/instagram.png" alt="Ícone" className='lg:w-8 lg:h-8' />
+                <img src="/instagram.png" alt="Ícone" className='w-4 h-4 lg:w-8 lg:h-8' />
               </div>
               <p>@papelpolenoficial</p>
             </div>
