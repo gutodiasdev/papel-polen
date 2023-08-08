@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const build = 'build'
+
 export default function Home() {
   return (
     <main className="min-h-screen min-w-full">
