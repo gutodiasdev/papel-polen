@@ -33,7 +33,6 @@ export default function RootLayout({
         />
       </head>
       <body className='bg-[#fff7e0]'>
-        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/ns.html?id=GTM-P5MBKH4W" />
         {children}
       </body>
     </html>
