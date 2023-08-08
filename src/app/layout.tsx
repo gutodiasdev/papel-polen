@@ -1,9 +1,17 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
 import Script from 'next/script'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const minionPro = localFont({
+  src: [
+    {
+      path: '../../public/fonts/MinionPro-Regular.otf',
+      weight: '400'
+    }
+  ],
+  variable: '--font-minion-pro'
+})
 
 export const metadata: Metadata = {
   title: 'Papel Pólen',
@@ -32,7 +40,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className='bg-[#fff7e0]'>
+      <body className={`bg-[#fff7e0]`} style={{ fontFamily: minionPro.style.fontFamily }}>
         {children}
       </body>
     </html>

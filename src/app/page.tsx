@@ -1,19 +1,18 @@
-import { AiFillFacebook } from 'react-icons/ai'
-import { FaAngleDown, FaInstagramSquare } from 'react-icons/fa'
+import { FaAngleDown } from 'react-icons/fa'
 
 
 export default function Home() {
   return (
     <main className="min-h-screen min-w-full">
-      <section className="min-h-screen bg-[#231f20] lg:rounded-tr-[32rem] md:rounded-tl-none lg:rounded-bl-[32rem] 
-      lg:rounded-tr-[32rem] grid items-center justify-center pt-8 pb-16 text-white text-center">
+      <section className="min-h-screen bg-[#231f20] md:rounded-tl-none lg:rounded-bl-[32rem] 
+      lg:rounded-tr-[32rem] grid items-center justify-center pt-8 pb-16 text-[#FFF7E0] text-center">
         <div className="flex w-full justify-center">
-          <img src="/logo_papel_polen.svg" alt="Logo Polen Natural" className="w-[64px] h-[64px] 2xl:w-[88px] 2xl:h-[88px]" />
+          <img src="/logo_papel_polen.svg" alt="Logo Polen Natural" className="w-[64px] h-[64px] 2xl:w-[120px] 2xl:h-[120px]" />
         </div>
         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  2xl:text-7xl">
-          Livro Carbono Zero para <span className="underline">inspirar você</span>
+          Livro Carbono Zero para inspirar você
         </h1>
-        <p className="md:2xl lg:text-lg 2xl:text-xl">
+        <p className="md:2xl lg:text-lg 2xl:text-xl -mt-24">
           Conheça o Papel Pólen® Natural, novo papel off-white pensado especialmente para livros, proporcionando<br></br>
           uma leitura muito mais agradável, sem abrir mão dos cuidados com o meio ambiente.
         </p>
@@ -25,52 +24,56 @@ export default function Home() {
       </section>
       <section id='step-start' className='min-h-screen bg-[#231f20]'>
         <div className='min-h-screen bg-[#fff7e0] lg:rounded-br-[32rem] grid items-center md:grid lg:grid-cols-2 lg:px-24 xl:px-32'>
-            <div>
-              <p className='md:pt-0 px-8 md:px-24 lg:pr-16 2xl:pl-32 2xl:text-2xl'>
-                Livros atravessam gerações marcando épocas e transmitindo
-                inspiração e conhecimento.<br></br>
-                Para o Papel Pólen® Natural, a sustentabilidade é uma das
-                protagonistas da história da nossa sociedade. Por isso a Suzano, em
-                parceria com as editoras Companhia das Letras, Record e Sextante,
-                realizou um projeto-piloto que visa contribuir para uma cadeia de
-                produção editorial brasileira mais sustentável: a Edição Especial
-                Carbono Zero dos livros “Em Defesa do Tempo”, “É Assim que
-                Começa” e &quot;Uma Boa Vida&quot;.
-              </p>
-            </div>
-            <div className='grid place-items-center relative overflow-hidden w-full pt-[56.25%]'>
-              <iframe className='absolute top-0 left-0 bottom-0 right-0 w-full h-full' src="https://www.youtube.com/embed/PMwDeoh0LM4" title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            </div>
+          <div className='md:px-24 lg:pr-16 2xl:pl-32 2xl:text-2xl'>
+            <p className='md:pt-0'>
+              Livros atravessam gerações marcando épocas e transmitindo
+              inspiração e conhecimento.<br></br>
+              Para o Papel Pólen® Natural, a sustentabilidade é uma das
+              protagonistas da história da nossa sociedade. Por isso a Suzano, em
+              parceria com as editoras Companhia das Letras, Record e Sextante,
+              realizou um projeto-piloto que visa contribuir para uma cadeia de
+              produção editorial brasileira mais sustentável: a Edição Especial
+              Carbono Zero dos livros “Em Defesa do Tempo”, “É Assim que
+              Começa” e &quot;Uma Boa Vida&quot;.
+            </p>
+            <button type="submit" className='bg-[#F7941D] p-2 rounded-xl min-w-[200px] text-[#FFF7E0] px-8 mt-8
+            hover:bg-[#231f20] hover:text-[#F7941D] transition ease-out'>
+              Conheça o Papel Pólen® Natural e faça a escolha sustentável!
+            </button>
+          </div>
+          <div className='grid place-items-center relative overflow-hidden w-full pt-[56.25%]'>
+            <iframe className='absolute top-0 left-0 bottom-0 right-0 w-full h-full' src="https://www.youtube.com/embed/PMwDeoh0LM4" title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          </div>
         </div>
       </section>
       <section className="min-h-screen bg-[#231f20] rounded-tl-[32rem] md:rounded-tl-none lg:rounded-bl-[32rem] 
       md:grid md:grid-cols-1 lg:grid-cols-2 md:px-24 items-center px-8 pt-8 pb-16">
-          <div className="flex w-full justify-">
-            <img src="/illustration_01.svg" alt="Logo Polen Natural" className="w-4/5" />
-          </div>
-          <div className="text-white lg:pl-4 flex flex-col gap-y-8 pt-4 md:pt-0 lg:pr-24 2xl:pr-56 xl:pr-32 2xl:text-2xl">
-            <p>
-              Para neutralizar as emissões de carbono, a Suzano contou com apoio de uma
-              consultoria especializada para mapear e calcular a pegada de carbono de todo o ciclo
-              de vida dos livros, desde a plantação do eucalipto até o descarte/reciclagem de cada
-              obra. O cálculo foi realizado de forma individualizada para cada livro e para
-              neutralizar as emissões serão utilizados créditos de carbono da Suzano, oriundos de
-              projetos certificados e verificados por auditoria externa.
-            </p>
-            <p>
-              Essa é uma iniciativa alinhada com a estratégia de negócios da Suzano. Focada em
-              soluções baseadas na natureza, a companhia busca conservar a biodiversidade e
-              regular o ciclo hidrológico por meio de suas áreas de plantio e conservação, ao
-              mesmo tempo que oferece soluções sustentáveis aos clientes e contribui para
-              reduzir as emissões de carbono na cadeia de valor.
-            </p>
-            <p>
-              Mas esse não é um trabalho de apenas uma empresa. Contamos com o apoio
-              de diversos atores nessa jornada, incluindo fornecedores e clientes. Nosso
-              propósito é renovar a vida a partir da árvore e nós contamos com você. Faça
-              parte desse movimento.
-            </p>
+        <div className="flex w-full justify-">
+          <img src="/illustration_01.svg" alt="Logo Polen Natural" className="w-4/5" />
+        </div>
+        <div className="text-[#FFF7E0] lg:pl-4 flex flex-col gap-y-8 pt-4 md:pt-0 lg:pr-24 2xl:pr-56 xl:pr-32 2xl:text-2xl">
+          <p>
+            Para neutralizar as emissões de carbono, a Suzano contou com apoio de uma
+            consultoria especializada para mapear e calcular a pegada de carbono de todo o ciclo
+            de vida dos livros, desde a plantação do eucalipto até o descarte/reciclagem de cada
+            obra. O cálculo foi realizado de forma individualizada para cada livro e para
+            neutralizar as emissões serão utilizados créditos de carbono da Suzano, oriundos de
+            projetos certificados e verificados por auditoria externa.
+          </p>
+          <p>
+            Essa é uma iniciativa alinhada com a estratégia de negócios da Suzano. Focada em
+            soluções baseadas na natureza, a companhia busca conservar a biodiversidade e
+            regular o ciclo hidrológico por meio de suas áreas de plantio e conservação, ao
+            mesmo tempo que oferece soluções sustentáveis aos clientes e contribui para
+            reduzir as emissões de carbono na cadeia de valor.
+          </p>
+          <p>
+            Mas esse não é um trabalho de apenas uma empresa. Contamos com o apoio
+            de diversos atores nessa jornada, incluindo fornecedores e clientes. Nosso
+            propósito é renovar a vida a partir da árvore e nós contamos com você. Faça
+            parte desse movimento.
+          </p>
         </div>
       </section>
       <section className='min-h-screen bg-[#231f20]'>
@@ -104,9 +107,9 @@ export default function Home() {
       <section className="bg-[#231f20] flex items-center">
         <div className="h-[100%] bg-[url('/section_divider.svg')] pt-16 bg-no-repeat bg-contain bg-[center_bottom_-1rem]
         md:bg-[center_bottom_-6.25rem] lg:bg-[center_bottom_-8.25rem] 2xl:bg-[center_bottom_-15.5rem] lg:px-24 md:px-24 xl:px-32 2xl:px-56 px-8">
-          <h3 className='text-white text-2xl 2xl:text-3xl 2xl:font-extrabold pb-8'>Compromisso para Renovar a Vida</h3>
+          <h3 className='text-[#FFF7E0] text-2xl 2xl:text-3xl 2xl:font-extrabold pb-8'>Compromisso para Renovar a Vida</h3>
           <div className='md:grid md:grid-cols-1 lg:grid-cols-2 md:gap-y-8 2xl:gap-x-16'>
-            <div className="text-white flex flex-col gap-y-8 pt-4 md:pt-0 xl:text-md 2xl:text-2xl">
+            <div className="text-[#FFF7E0] flex flex-col gap-y-8 pt-4 md:pt-0 xl:text-md 2xl:text-2xl">
               <p>
                 Através dos nossos Compromissos para Renovar a Vida, estamos ampliando nosso
                 impacto positivo na cadeia de valor e na sociedade. Buscamos promover mudanças
@@ -116,7 +119,7 @@ export default function Home() {
               </p>
 
             </div>
-            <div className="text-white flex flex-col gap-y-8 pt-4 md:pt-0 2xl:pr-24 2xl:text-2xl">
+            <div className="text-[#FFF7E0] flex flex-col gap-y-8 pt-4 md:pt-0 2xl:pr-24 2xl:text-2xl">
               <p>
                 Diante dos desafios complexos que enfrentamos, nossa estratégia de sustentabilidade
                 foi construída de forma colaborativa, com a participação de centenas de pessoas de
@@ -129,23 +132,31 @@ export default function Home() {
           </div>
           <div className='grid grid-cols-2 gap-x-2 md:grid-cols-3 lg:grid-cols-5 md:gap-x-2 lg:gap-x-4 xl:gap-x-8 mx-auto py-8 2xl:py-16'>
             <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
-              <p>Combater a crise climática</p>
+              <img src="/thermostat.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
+              <p className='2xl:text-lg mt-2'>Combater a crise climática</p>
             </div>
             <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
-              <p>Cuidar da água</p>
+              <img src="/water_drop.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
+              <p className='2xl:text-lg mt-2'>Cuidar da água</p>
             </div>
             <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
-              <p>Reduzir os resíduos</p>
+              <img src="/delete.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
+              <p className='2xl:text-lg mt-2'>Reduzir os resíduos</p>
             </div>
             <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
-              <p>Oferecer produtos renováveis</p>
+              <img src="/nest_eco_leaf.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
+              <p className='2xl:text-lg mt-2'>Oferecer produtos renováveis</p>
             </div>
             <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
-              <p>Conservar a biodiversidade</p>
+              <img src="/energy_program_time_used.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
+              <p className='2xl:text-lg mt-2'>Conservar a biodiversidade</p>
             </div>
           </div>
           <div className='w-full flex justify-center mt-8'>
-            <a href="#" className='p-4 bg-[#fff7e0] rounded-lg mb-[16rem]'>Saiba mais sobre os compromissos para Renovar a Vida</a>
+            <button className='p-4 bg-[#fff7e0] rounded-lg mb-[16rem] hover:bg-[#F7941D] hover:text-[#231f20] transition ease-out
+            2xl:text-2xl'>
+              Saiba mais sobre os compromissos para Renovar a Vida
+            </button>
           </div>
         </div>
       </section>
@@ -154,19 +165,24 @@ export default function Home() {
           <img src="/logo_polen_and_points.svg" alt="Logo Polen Natural" className="w-[160px] h-[64px]" />
         </div>
         <form action="" className='flex flex-col gap-y-4 max-w-[320px]  md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto my-12'>
-          <input type="text" name="name" id="name" placeholder='Nome' className='border border-gray-700 p-2 rounded-xl' />
-          <input type="text" name="email" id="email" placeholder='E-mail' className='border border-gray-700 p-2 rounded-xl' />
-          <input type="text" name="phone" id="phone" placeholder='Telefone' className='border border-gray-700 p-2 rounded-xl' />
-          <input type="text" name="business" id="business" placeholder='Empresa' className='border border-gray-700 p-2 rounded-xl' />
-          <button type="submit" className='bg-[#F7941D] p-2 rounded-xl min-w-[200px] text-white md:mx-auto'>
+          <input type="text" name="name" id="name" placeholder='Nome' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
+          <input type="text" name="email" id="email" placeholder='E-mail' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
+          <input type="text" name="phone" id="phone" placeholder='Telefone' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
+          <input type="text" name="business" id="business" placeholder='Empresa' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
+          <button type="submit" className='bg-[#F7941D] p-2 rounded-xl max-w-[200px] text-[#FFF7E0]'>
             Enviar
           </button>
         </form>
-        <div className='grid md:grid-cols-1 lg:grid-cols-3 max-w-[320px] md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto gap-y-4 md:gap-y-8'>
+        <div className='grid md:grid-cols-1 lg:grid-cols-3 max-w-[320px] md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto 
+        gap-y-4 md:gap-y-8'>
           <div>
-            <div className='flex gap-x-2 justify-center'>
-              <div><AiFillFacebook size='1.5rem' /></div>
-              <div><FaInstagramSquare size='1.5rem' /></div>
+            <div className='flex gap-x-2 justify-center items-center'>
+              <div>
+                <img src="/facebook.png" alt="Ícone" className='lg:w-8 lg:h-8' />
+              </div>
+              <div>
+                <img src="/instagram.png" alt="Ícone" className='lg:w-8 lg:h-8' />
+              </div>
               <p>@papelpolenoficial</p>
             </div>
             <div></div>
