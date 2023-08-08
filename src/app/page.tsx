@@ -6,7 +6,7 @@ export default function Home() {
         <div className="flex w-full justify-center">
           <img src="/illustration_01.svg" alt="Logo Polen Natural" className="w-4/5" />
         </div>
-        <div className="text-white pl-4 pr-8 flex flex-col gap-y-8 pt-4 md:pt-0">
+        <div className="text-white pl-4 pr-8 flex flex-col gap-y-8 pt-4 md:pt-0 2xl:pr-56 2xl:text-2xl">
           <p>
             Para neutralizar as emissões de carbono, a Suzano contou com apoio de uma
             consultoria especializada para mapear e calcular a pegada de carbono de todo o ciclo
