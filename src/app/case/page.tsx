@@ -1,4 +1,5 @@
 import { FaAngleDown } from 'react-icons/fa'
+import { CaseTagsSwiper } from '../components/TagsSwiper'
 
 
 export default function Home() {
@@ -134,29 +135,9 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className='grid grid-cols-2 gap-x-2 md:grid-cols-3 lg:grid-cols-5 md:gap-x-2 lg:gap-x-4 xl:gap-x-8 mx-auto 
-          py-8 2xl:py-16'>
-            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
-              <img src="/thermostat.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-              <p className='2xl:text-xl mt-2'>Combater a crise climática</p>
-            </div>
-            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
-              <img src="/water_drop.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-              <p className='2xl:text-lg mt-2'>Cuidar da água</p>
-            </div>
-            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
-              <img src="/delete.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-              <p className='2xl:text-lg mt-2'>Reduzir os resíduos</p>
-            </div>
-            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
-              <img src="/nest_eco_leaf.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-              <p className='2xl:text-lg mt-2'>Oferecer produtos renováveis</p>
-            </div>
-            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
-              <img src="/energy_program_time_used.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-              <p className='2xl:text-lg mt-2'>Conservar a biodiversidade</p>
-            </div>
-          </div>
+          <div className="py-8 md:flex md:gap-x-4">
+          <CaseTagsSwiper />
+        </div>
           <div className='w-full flex justify-center mt-8'>
             <button className='p-4 bg-[#fff7e0] rounded-lg mb-[16rem] hover:bg-[#F7941D] hover:text-[#231f20] transition ease-out
             2xl:text-2xl'>

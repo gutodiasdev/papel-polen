@@ -101,7 +101,7 @@ export default function Home() {
             Mais próximo da natureza
           </h2>
         </div>
-        <div className="grid grid-cols-1 gap-y-4 py-8 md:flex md:gap-x-2 lg:gap-x-4">
+        <div className="py-8 md:flex md:gap-x-4">
           <DarkTagsSwiper />
         </div>
       </section>
