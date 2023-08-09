@@ -179,10 +179,10 @@ export default function Home() {
           <div>
             <div className='flex gap-x-2 justify-center items-center'>
               <div>
-                <img src="/facebook.png" alt="Ícone" className='w-4 h-4 lg:w-8 lg:h-8' />
+                <img src="/facebook.png" alt="Ícone" className='w-6 h-6 lg:w-8 lg:h-8' />
               </div>
               <div>
-                <img src="/instagram.png" alt="Ícone" className='w-4 h-4 lg:w-8 lg:h-8' />
+                <img src="/instagram.png" alt="Ícone" className='w-6 h-6 lg:w-8 lg:h-8' />
               </div>
               <p>@papelpolenoficial</p>
             </div>
