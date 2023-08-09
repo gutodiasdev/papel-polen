@@ -75,7 +75,7 @@ export function DarkTagsSwiper() {
                     spaceBetween: 30
                 },
                 1400: {
-                    slidesPerView: 2.2,
+                    slidesPerView: 2.1,
                     spaceBetween: 30
                 }
             }}
@@ -97,7 +97,7 @@ export function DarkTagsSwiper() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain 2xl:bg-cover text-[#FFF7E0] p-8 min-h-[400px] 
-                2xl:min-h-[440px] md:min-w-[300px] 2xl:min-w-[400px]">
+                2xl:min-h-[480px] md:min-w-[300px] 2xl:min-w-[400px]">
                     <img src="/nature_tree.svg" alt="Pine" className="w-[24px] h-[24px]" />
                     <div className='w-full'>
                         <p className="mt-8 text-lg 2xl:text-2xl">
@@ -109,7 +109,7 @@ export function DarkTagsSwiper() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain 2xl:bg-cover text-[#FFF7E0] p-8 min-h-[400px] 
-                2xl:min-h-[440px] md:min-w-[300px] 2xl:min-w-[400px]">
+                2xl:min-h-[480px] md:min-w-[300px] 2xl:min-w-[400px]">
                     <img src="/two_pine_trees.svg" alt="Pine" className="w-[24px] h-[24px]" />
                     <div className='w-full'>
                         <p className="mt-8 text-lg 2xl:text-2xl">
