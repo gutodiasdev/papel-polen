@@ -5,11 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-<<<<<<< HEAD
     "start": "next start ",
-=======
-    "start": "next start",
->>>>>>> production
     "lint": "next lint"
   },
   "dependencies": {
