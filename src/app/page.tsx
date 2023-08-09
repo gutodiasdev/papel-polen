@@ -18,9 +18,9 @@ export default function Home() {
             <Link href='#sustentabilidade'>
               Sustentabilidade
             </Link>
-            <Link href='/case'>
+            <a href='/case'>
               Case
-            </Link>
+            </a>
           </nav>
         </div>
         <div className="px-3 py-8 2xl:p-16 md:w-1/2 md:px-6 xl:px-12 2xl:px-24">
