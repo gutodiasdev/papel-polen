@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { FaAngleDown } from 'react-icons/fa'
 import { Form } from '../components/Form'
 import { CaseTagsSwiper } from '../components/TagsSwiper'
@@ -42,10 +43,12 @@ export default function Home() {
               Carbono Zero dos livros “Em Defesa do Tempo”, “É Assim que
               Começa” e &quot;Uma Boa Vida&quot;.
             </p>
-            <button type="submit" className='bg-[#F7941D] p-2 rounded-xl min-w-[200px] text-[#FFF7E0] px-8 mt-8
+            <Link href={'#register-form'}>
+              <button type="submit" className='bg-[#F7941D] p-2 rounded-xl min-w-[200px] text-[#FFF7E0] px-8 mt-8
             hover:bg-[#231f20] hover:text-[#F7941D] transition ease-out'>
-              Conheça o Papel Pólen® Natural e faça a escolha sustentável!
-            </button>
+                Conheça o Papel Pólen® Natural e faça a escolha sustentável!
+              </button>
+            </Link>
           </div>
           <div className='grid place-items-center relative overflow-hidden w-full pt-[56.25%]'>
             <iframe className='absolute top-0 left-0 bottom-0 right-0 w-full h-full' src="https://www.youtube.com/embed/PMwDeoh0LM4" title="YouTube video player"
@@ -140,10 +143,12 @@ export default function Home() {
             <CaseTagsSwiper />
           </div>
           <div className='w-full flex justify-center mt-8'>
-            <button className='p-4 bg-[#fff7e0] rounded-lg mb-[16rem] hover:bg-[#F7941D] hover:text-[#231f20] transition ease-out
+            <Link href={'#register-form'}>
+              <button className='p-4 bg-[#fff7e0] rounded-lg mb-[16rem] hover:bg-[#F7941D] hover:text-[#231f20] transition ease-out
             2xl:text-2xl'>
-              Saiba mais sobre os compromissos para Renovar a Vida
-            </button>
+                Saiba mais sobre os compromissos para Renovar a Vida
+              </button>
+            </Link>
           </div>
         </div>
       </section>

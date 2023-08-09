@@ -47,7 +47,7 @@ export function Form() {
     return (
         <>
             <FormDialog isOpen={isOpen} setIsOpen={() => setIsOpen(!isOpen)} />
-            <form action="" className='flex flex-col gap-y-4 max-w-[320px]  md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto my-12'
+            <form id="register-form" action="" className='flex flex-col gap-y-4 max-w-[320px]  md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto my-12'
                 onSubmit={handleSubmit(submitData)}>
                 <input type="text" {...register('name')} placeholder='Nome' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]
                 2xl:text-2xl' />

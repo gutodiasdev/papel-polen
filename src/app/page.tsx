@@ -33,10 +33,12 @@ export default function Home() {
             tonalidade off white, menos reflexo de luz e uma leitura mais agradável e prolongada. Ele oferece uma
             experiência sensorial confortável, macio ao toque, proporcionando um belo acabamento ao produto final.
           </p>
-          <button type="submit" className='bg-[#F7941D] p-2 rounded-xl w-full lg:max-w-[320px] 2xl:text-2xl text-[#FFF7E0] px-8 mt-8
+          <Link href={'#register-form'}>
+            <button type="submit" className='bg-[#F7941D] p-2 rounded-xl w-full lg:max-w-[320px] 2xl:text-2xl text-[#FFF7E0] px-8 mt-8
             hover:bg-[#231f20] hover:text-[#F7941D] transition ease-out'>
-            Quero usar papel pólen
-          </button>
+              Quero usar papel pólen
+            </button>
+          </Link>
         </div>
       </section>
       <section className="md:py-16 lg:px-12 2xl:p-24">
@@ -89,10 +91,12 @@ export default function Home() {
               <p className="text-lg 2xl:text-2xl">Gramatura 70g e 80g</p>
             </div>
           </div>
-          <button type="submit" className='bg-[#F7941D] p-2 rounded-xl w-full text-[#FFF7E0] px-8 mt-8
+          <Link href={'#register-form'}>
+            <button type="submit" className='bg-[#F7941D] p-2 rounded-xl w-full text-[#FFF7E0] px-8 mt-8
             hover:bg-[#231f20] hover:text-[#F7941D] transition ease-out lg:max-w-[320px] 2xl:text-2xl'>
-            Quero usar papel pólen
-          </button>
+              Quero usar papel pólen
+            </button>
+          </Link>
         </div>
       </section>
       <section id="sustentabilidade" className="bg-[url('/background.svg')] grid grid-cols-1 px-3 md:px-6 lg:px-12 py-8 md:py-16
@@ -115,10 +119,12 @@ export default function Home() {
           <p className="2xl:text-2xl">
             Sua comunicação impressa com menos impacto ambiental: Conheça o Papel Pólen.
           </p>
-          <button type="submit" className='bg-[#F7941D] p-2 rounded-xl min-w-[200px] lg:max-w-[320px] 2xl:text-2xl text-[#FFF7E0] px-8 mt-8
+          <Link href={'#register-form'}>
+            <button type="submit" className='bg-[#F7941D] p-2 rounded-xl min-w-[200px] lg:max-w-[320px] 2xl:text-2xl text-[#FFF7E0] px-8 mt-8
             hover:bg-[#231f20] hover:text-[#F7941D] transition ease-out'>
-            Quero usar papel pólen
-          </button>
+              Quero usar papel pólen
+            </button>
+          </Link>
         </div>
         <div className="flex w-full justify-center">
           <img src="/edicao_carbono_zero.svg" alt="Logo Polen Natural" className="w-3/5" />
