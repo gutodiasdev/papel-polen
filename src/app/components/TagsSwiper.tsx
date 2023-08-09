@@ -133,7 +133,7 @@ export function CaseTagsSwiper() {
             }}
             breakpoints={{
                 340: {
-                    slidesPerView: 2.2,
+                    slidesPerView: 1.2,
                     spaceBetween: 16
                 },
                 1250: {
@@ -146,37 +146,36 @@ export function CaseTagsSwiper() {
                 }
             }}
             modules={[Pagination, Navigation]}
-            className="min-h-[250px] w-full"
+            className="min-h-fit w-full"
         >
             <SwiperSlide>
-                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[140px]
-                2xl:min-w-[250px] 2xl:min-h-[250px]">
-                    <img src="/thermostat.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-                    <p className='2xl:text-lg mt-2'>Combater a crise climática</p>
+                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover md:bg-contain py-8 px-4 min-h-[156px] md:min-h-[180px]">
+                    <img src="/thermostat.svg" alt="Ícone" className='w-4 lg:h-4' />
+                    <p className='md:text-xl 2xl:text-xl mt-2'>Combater a crise climática</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[140px]">
-                    <img src="/water_drop.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-                    <p className='2xl:text-lg mt-2'>Cuidar da água</p>
+                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover md:bg-contain py-8 px-4 min-h-[156px] md:min-h-[180px]">
+                    <img src="/water_drop.svg" alt="Ícone" className='w-4 lg:h-4' />
+                    <p className='md:text-xl 2xl:text-xl mt-2'>Cuidar da água</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[140px]">
-                    <img src="/delete.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-                    <p className='2xl:text-lg mt-2'>Reduzir os resíduos</p>
+                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover md:bg-contain py-8 px-4 min-h-[156px] md:min-h-[180px]">
+                    <img src="/delete.svg" alt="Ícone" className='w-4 lg:h-4' />
+                    <p className='md:text-xl 2xl:text-xl mt-2'>Reduzir os resíduos</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[140px]">
-                    <img src="/nest_eco_leaf.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-                    <p className='2xl:text-lg mt-2'>Oferecer produtos renováveis</p>
+                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover md:bg-contain py-8 px-4 min-h-[156px] md:min-h-[180px]">
+                    <img src="/nest_eco_leaf.svg" alt="Ícone" className='w-4 lg:h-4' />
+                    <p className='md:text-xl 2xl:text-xl mt-2'>Oferecer produtos renováveis</p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[140px]">
-                    <img src="/energy_program_time_used.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-                    <p className='2xl:text-lg mt-2'>Conservar a biodiversidade</p>
+                <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover md:bg-contain py-8 px-4 min-h-[156px] md:min-h-[180px]">
+                    <img src="/energy_program_time_used.svg" alt="Ícone" className='w-4 lg:h-4' />
+                    <p className='md:text-xl 2xl:text-xl mt-2'>Conservar a biodiversidade</p>
                 </div>
             </SwiperSlide>
         </Swiper>

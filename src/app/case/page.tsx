@@ -109,7 +109,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#231f20] flex items-center">
+      <section className="bg-[#231f20]">
         <div className="h-[100%] bg-[url('/section_divider.svg')] pt-16 bg-no-repeat bg-contain bg-[center_bottom_-1rem]
         md:bg-[center_bottom_-6.25rem] lg:bg-[center_bottom_-8.25rem] 2xl:bg-[center_bottom_-15.5rem] lg:px-24 md:px-24 xl:px-32 2xl:px-56 px-8">
           <h3 className='text-[#FFF7E0] text-2xl 2xl:text-3xl 2xl:font-extrabold pb-8'>Compromisso para Renovar a Vida</h3>
@@ -136,8 +136,8 @@ export default function Home() {
             </div>
           </div>
           <div className="py-8 md:flex md:gap-x-4">
-          <CaseTagsSwiper />
-        </div>
+            <CaseTagsSwiper />
+          </div>
           <div className='w-full flex justify-center mt-8'>
             <button className='p-4 bg-[#fff7e0] rounded-lg mb-[16rem] hover:bg-[#F7941D] hover:text-[#231f20] transition ease-out
             2xl:text-2xl'>
