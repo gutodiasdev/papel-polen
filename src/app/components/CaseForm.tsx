@@ -10,7 +10,7 @@ type Input = {
     businessName: string
 }
 
-export function HomeForm() {
+export function CaseForm() {
     const { register, handleSubmit, formState: { isSubmitting } } = useForm<Input>()
 
     async function registerUser(data: Input) {

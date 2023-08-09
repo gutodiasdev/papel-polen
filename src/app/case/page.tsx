@@ -1,4 +1,5 @@
 import { FaAngleDown } from 'react-icons/fa'
+import { CaseForm } from '../components/CaseForm'
 import { CaseTagsSwiper } from '../components/TagsSwiper'
 
 
@@ -150,15 +151,7 @@ export default function Home() {
         <div className='flex justify-center gap-x-4'>
           <img src="/logo_polen_and_points.svg" alt="Logo Polen Natural" className="w-[160px] h-[64px]" />
         </div>
-        <form action="" className='flex flex-col gap-y-4 max-w-[320px]  md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto my-12'>
-          <input type="text" name="name" id="name" placeholder='Nome' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
-          <input type="text" name="email" id="email" placeholder='E-mail' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
-          <input type="text" name="phone" id="phone" placeholder='Telefone' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
-          <input type="text" name="business" id="business" placeholder='Empresa' className='border border-gray-700 p-2 rounded-xl bg-[#fff7e0]' />
-          <button type="submit" className='bg-[#F7941D] p-2 rounded-xl max-w-[200px] text-[#FFF7E0]'>
-            Enviar
-          </button>
-        </form>
+        <CaseForm />
         <div className='grid md:grid-cols-1 lg:grid-cols-3 max-w-[320px] md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto 
         gap-y-4 md:gap-y-8'>
           <div>
