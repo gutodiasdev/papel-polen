@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DarkTagsSwiper, YellowTagsSwiper } from "./components/TagsSwiper";
 
 export default function Home() {
   return (
@@ -55,21 +56,7 @@ export default function Home() {
           </p>
         </div>
         <div className="py-8 md:flex md:gap-x-4">
-          <div className="bg-[url('/yellow_tag.svg')] bg-no-repeat bg-contain text-[#FFF7E0] p-8 min-h-[400px] md:min-w-[300px]">
-            <img src="/apartment.svg" alt="Pine" className="w-[24px] h-[24px]" />
-            <h3 className="text-[#231f20] text-2xl py-4">Naturalmente melhor para as editoras</h3>
-            <p className="text-xl">O Pólen Natural é produzido de forma otimizada e oferece melhor desempenho na fabricação de livros.</p>
-          </div>
-          <div className="bg-[url('/yellow_tag.svg')] bg-no-repeat bg-contain text-[#FFF7E0] p-8 min-h-[400px] md:min-w-[300px]">
-            <img src="/description.svg" alt="Pine" className="w-[24px] h-[24px]" />
-            <h3 className="text-[#231f20] text-2xl py-4">Naturalmente melhor para leitores</h3>
-            <p className="text-xl">Leitura mais confortável para os olhos.</p>
-          </div>
-          <div className="bg-[url('/yellow_tag.svg')] bg-no-repeat bg-contain text-[#FFF7E0] p-8 min-h-[400px] md:min-w-[300px]">
-            <img src="/edit_note.svg" alt="Pine" className="w-[24px] h-[24px]" />
-            <h3 className="text-[#231f20] text-2xl py-4">Naturalmente melhor para escritores</h3>
-            <p className="text-xl">Toda a sofisticação de Pólen, com corpo e acabamento de superfície para valorizar uma boa história.</p>
-          </div>
+          <YellowTagsSwiper />
         </div>
       </section>
       <section id="papel-polen" className="px-3 md:px-6 lg:px-12 2xl:p-24 py-8 bg-[url('/why_use_background.svg')] bg-no-repeat 
@@ -115,31 +102,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-y-4 py-8 md:flex md:gap-x-2 lg:gap-x-4">
-          <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain 2xl:bg-cover text-[#FFF7E0] p-8 min-h-[400px] 
-          2xl:min-h-[480px] md:min-w-[300px] 2xl:min-w-[400px]">
-            <img src="/pine_tree.svg" alt="Pine" className="w-[24px] h-[24px]" />
-            <p className="mt-8 text-lg 2xl:text-2xl">
-              Visando fornecer soluções sustentáveis, a nossa empresa se dedica ao plantio e cultivo de árvores, as
-              quais são transformadas em bioprodutos inovadores e renováveis que atualmente impactam positivamente a vida
-              de mais de 2 bilhões de pessoas.
-            </p>
-          </div>
-          <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain 2xl:bg-cover text-[#FFF7E0] p-8 min-h-[400px] 
-          2xl:min-h-[440px] md:min-w-[300px] 2xl:min-w-[400px]">
-            <img src="/nature_tree.svg" alt="Pine" className="w-[24px] h-[24px]" />
-            <p className="mt-8 text-lg 2xl:text-2xl">
-              Por meio do desenvolvimento de uma ampla gama de materiais, utilizando árvores cultivadas por nós, nos
-              comprometemos a tornar os produtos disponíveis nas lojas e prateleiras ao redor do mundo mais sustentáveis.
-            </p>
-          </div>
-          <div className="bg-[url('/dark_tag.svg')] bg-no-repeat bg-contain 2xl:bg-cover text-[#FFF7E0] p-8 min-h-[400px] 
-          2xl:min-h-[440px] md:min-w-[300px] 2xl:min-w-[400px]">
-            <img src="/two_pine_trees.svg" alt="Pine" className="w-[24px] h-[24px]" />
-            <p className="mt-8 text-lg 2xl:text-2xl">
-              A empresa tem a sustentabilidade como um pilar essencial em sua trajetória e busca conscientizar e
-              inspirar cada vez mais pessoas a adotarem práticas sustentáveis.
-            </p>
-          </div>
+          <DarkTagsSwiper />
         </div>
       </section>
       <section className="py-8 md:py-16 px-3 md:px-6 grid gap-y-8 bg-[url('/closer_to_nature.svg')] bg-no-repeat bg-[right_-24rem_top_-6rem]

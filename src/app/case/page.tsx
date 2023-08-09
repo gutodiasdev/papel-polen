@@ -7,7 +7,10 @@ export default function Home() {
       <section className="min-h-screen bg-[#231f20] md:rounded-tl-none lg:rounded-bl-[32rem] 
       lg:rounded-tr-[32rem] grid items-center justify-center pt-8 pb-16 text-[#FFF7E0] text-center">
         <div className="flex w-full justify-center">
-          <img src="/logo_papel_polen.svg" alt="Logo Polen Natural" className="w-[64px] h-[64px] 2xl:w-[120px] 2xl:h-[120px]" />
+          <a href={'/'}>
+            <img src="/logo_papel_polen.svg" alt="Logo Polen Natural" className="w-[64px] h-[64px] 2xl:w-[120px] 2xl:h-[120px] 
+            cursor-pointer" />
+          </a>
         </div>
         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  2xl:text-7xl">
           Livro Carbono Zero para inspirar você
@@ -131,24 +134,25 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className='grid grid-cols-2 gap-x-2 md:grid-cols-3 lg:grid-cols-5 md:gap-x-2 lg:gap-x-4 xl:gap-x-8 mx-auto py-8 2xl:py-16'>
-            <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
+          <div className='grid grid-cols-2 gap-x-2 md:grid-cols-3 lg:grid-cols-5 md:gap-x-2 lg:gap-x-4 xl:gap-x-8 mx-auto 
+          py-8 2xl:py-16'>
+            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
               <img src="/thermostat.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
-              <p className='2xl:text-lg mt-2'>Combater a crise climática</p>
+              <p className='2xl:text-xl mt-2'>Combater a crise climática</p>
             </div>
-            <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
+            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
               <img src="/water_drop.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
               <p className='2xl:text-lg mt-2'>Cuidar da água</p>
             </div>
-            <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
+            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
               <img src="/delete.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
               <p className='2xl:text-lg mt-2'>Reduzir os resíduos</p>
             </div>
-            <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
+            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
               <img src="/nest_eco_leaf.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
               <p className='2xl:text-lg mt-2'>Oferecer produtos renováveis</p>
             </div>
-            <div style={{ backgroundImage: 'url(/tag.svg)' }} className='bg-no-repeat bg-contain 2xl:bg-cover py-8 px-4 2xl:h-[140px]'>
+            <div className="bg-[url('/tag.svg')] bg-no-repeat bg-cover 2xl:bg-cover py-8 px-4 2xl:h-[148px]">
               <img src="/energy_program_time_used.svg" alt="Ícone" className='lg:w-8 lg:h-8' />
               <p className='2xl:text-lg mt-2'>Conservar a biodiversidade</p>
             </div>
