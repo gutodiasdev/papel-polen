@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HomeForm } from "./components/HomeForm";
+import { Form } from "./components/Form";
 import { DarkTagsSwiper, YellowTagsSwiper } from "./components/TagsSwiper";
 
 export default function Home() {
@@ -130,7 +130,7 @@ export default function Home() {
           <div className='flex justify-center md:justify-start gap-x-4'>
             <img src="/logo_polen_and_points.svg" alt="Logo Polen Natural" className="w-[160px] h-[64px] 2xl:w-[240px] 2xl:h-[128px]" />
           </div>
-          <HomeForm />
+          <Form />
           <div className='grid md:grid-cols-3 lg:grid-cols-3 max-w-[320px] md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto 
         gap-y-4 md:gap-y-8'>
             <div>

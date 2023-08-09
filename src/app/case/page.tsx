@@ -1,5 +1,5 @@
 import { FaAngleDown } from 'react-icons/fa'
-import { CaseForm } from '../components/CaseForm'
+import { Form } from '../components/Form'
 import { CaseTagsSwiper } from '../components/TagsSwiper'
 
 
@@ -151,7 +151,7 @@ export default function Home() {
         <div className='flex justify-center gap-x-4'>
           <img src="/logo_polen_and_points.svg" alt="Logo Polen Natural" className="w-[160px] h-[64px]" />
         </div>
-        <CaseForm />
+        <Form />
         <div className='grid md:grid-cols-1 lg:grid-cols-3 max-w-[320px] md:max-w-[480px] lg:max-w-[640px] xl:max-w-[880px] mx-auto 
         gap-y-4 md:gap-y-8'>
           <div>
