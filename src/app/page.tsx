@@ -142,10 +142,14 @@ export default function Home() {
             <div>
               <div className='flex gap-x-2 justify-center items-center'>
                 <div>
-                  <img src="/facebook.png" alt="Ícone" className='w-6 h-6 lg:w-8 lg:h-8' />
+                  <a href="https://www.facebook.com/papelpolen?mibextid=LQQJ4d" target='_blank'>
+                    <img src="/facebook.png" alt="Ícone" className='w-6 h-6 lg:w-8 lg:h-8' />
+                  </a>
                 </div>
                 <div>
-                  <img src="/instagram.png" alt="Ícone" className='w-6 h-6 lg:w-8 lg:h-8' />
+                  <a href="https://instagram.com/papelpolenoficial?igshid=MzRlODBiNWFlZA==" target='_blank'>
+                    <img src="/instagram.png" alt="Ícone" className='w-6 h-6 lg:w-8 lg:h-8' />
+                  </a>
                 </div>
                 <p>@papelpolenoficial</p>
               </div>
