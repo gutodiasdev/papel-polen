@@ -46,7 +46,6 @@ export default function RootLayout({
             }}
           />
         <body className={`bg-[#fff7e0]`} style={{ fontFamily: minionPro.style.fontFamily }}>
-          {/* <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5MBKH4W" height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe> */}
           <img height="1" width="1" style={{ display: 'none' }} src="https://www.facebook.com/tr?id=238816705230083&ev=PageView&noscript=1" />
           {children}
         </body>
