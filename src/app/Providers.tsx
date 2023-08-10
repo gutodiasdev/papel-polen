@@ -1,7 +1,8 @@
 'use client'
 
-import React from "react"
-import { QueryClient, QueryClientProvider } from 'react-query'
+import React from "react";
+import TagManager from 'react-gtm-module';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 type ProvidersProps = {
     children: React.ReactNode
@@ -10,6 +11,9 @@ type ProvidersProps = {
 const queryClient = new QueryClient()
 
 export function Providers({children}: ProvidersProps) {
+    if (typeof window !== "undefined") {
+        TagManager.initialize({ gtmId: 'GTM-P5MBKH4W' })
+    }
 
     return (
         <QueryClientProvider client={queryClient} >
