@@ -157,7 +157,7 @@ export default function Home() {
           </button>
         </div>
         <div className="flex w-full justify-center">
-          <img src="/edicao_carbono_zero.svg" alt="Logo Polen Natural" className="w-3/5" />
+          <img src="/logo_papel_polen.png" alt="Logo Polen Natural" className="w-3/5" />
         </div>
       </section>
       <section className="py-8 md:py-16 px-3 md:px-6 grid bg-[url('/background_tree.svg')] bg-no-repeat bg-[right_-24rem_top_-6rem]

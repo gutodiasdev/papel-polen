@@ -109,7 +109,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex w-full justify-center mt-8">
-            <img src="/edicao_carbono_zero.svg" alt="Logo Polen Natural" className="w-3/5" />
+            <img src="/logo_papel_polen.png" alt="Logo Polen Natural" className="w-3/5" />
           </div>
         </div>
       </section>
