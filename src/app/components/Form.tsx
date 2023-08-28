@@ -23,7 +23,7 @@ export function Form() {
     const { register, handleSubmit, formState: { isSubmitting }, reset } = useForm<Input>()
 
     async function registerUser(data: Input) {
-        await fetch('/travelrock', {
+        await fetch('https://papelpolen.com.br/travelrock', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
