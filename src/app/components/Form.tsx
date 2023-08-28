@@ -23,7 +23,7 @@ export function Form() {
     const { register, handleSubmit, formState: { isSubmitting }, reset } = useForm<Input>()
 
     async function registerUser(data: Input) {
-        await fetch('/register', {
+        await fetch('/travelrock', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ export function Form() {
     const submitData: SubmitHandler<Input> = async (values) => {
         await mutation.mutateAsync(values)
     }
-
+    
     return (
         <>
             <FormDialog isOpen={isOpen} setIsOpen={() => setIsOpen(!isOpen)} />

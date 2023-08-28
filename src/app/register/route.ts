@@ -2,7 +2,7 @@ import { PrismaClient } from '@prisma/client'
 import { NextResponse } from "next/server"
 
 const globalForPrisma = globalThis as unknown as {
-  prisma: PrismaClient | undefined
+    prisma: PrismaClient | undefined
 }
 
 const prisma = globalForPrisma.prisma ?? new PrismaClient()
@@ -15,7 +15,7 @@ export async function POST(request: Request) {
         const user = await prisma.suzanoPapelPolenCampaign.findFirst({
             where: { email: body.email }
         })
-        if(user) return NextResponse.json('Already registered')
+        if (user) return NextResponse.json('Already registered')
         await prisma.suzanoPapelPolenCampaign.create({
             data: {
                 name: body.name,

@@ -17,3 +17,8 @@ model SuzanoPapelPolenCampaign {
   phone        String
   businessName String
 }
+
+model TravelRockBarilocheCampaign {
+  id         String @id @default(auto()) @map("_id") @db.ObjectId
+  registered Json
+}
